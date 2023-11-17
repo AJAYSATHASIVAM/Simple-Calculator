@@ -1,0 +1,39 @@
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.display{
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 15px;
+}
+input {
+  background-color: rgb(48, 44, 53);
+  margin: 0.8px;
+  color:rgb(220, 230, 230);
+  border: 0;
+  width:60px ;
+  height: 60px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  box-shadow: 0px 0px 5px red;
+
+}
+.cal-screen{
+  display: flex;
+  flex-direction: row-reverse;
+  width: 95%;
+  margin-bottom: 5px;
+  text-align: right;
+  font-size: 17px;
+}
+#cal-equal_btn{
+  
+  width: 125px;
+}
